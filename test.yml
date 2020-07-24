@@ -1,7 +1,8 @@
 ---
-tasks:
- - name: install gedit
-   yum:
-    name: gedit
-    state: present
+- name: install gedit package
+  tasks:
+   - name: install gedit
+     yum:
+      name: gedit
+      state: present
 ...
