@@ -1,0 +1,6 @@
+---
+- name: push the below file
+  template:
+   source: details.j2
+   dest: /tmp/test.txt
+...
