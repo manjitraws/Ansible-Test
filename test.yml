@@ -3,4 +3,3 @@
   yum:
    name: gedit
    state: present
- ...
