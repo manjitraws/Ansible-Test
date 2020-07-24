@@ -1,5 +1,6 @@
 ---
 - name: install gedit package
+  hosts: servers
   tasks:
    - name: install gedit
      yum:
