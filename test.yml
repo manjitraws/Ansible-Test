@@ -1,9 +1,6 @@
 ---
-- name: install gedit package
-  hosts: all
-  tasks:
-   - name: install gedit
-     yum:
-      name: gedit
-      state: present
+- name: push the below file
+  template:
+   src: details.j2
+   dest: /tmp/test.txt
 ...
