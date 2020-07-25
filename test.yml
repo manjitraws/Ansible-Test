@@ -1,6 +1,8 @@
 ---
-- name: push the below file
-  template:
-   src: details.j2
-   dest: /tmp/test.txt
+- name: push the j2 file
+  tasks:
+   - name: push the below file
+     template:
+      src: details.j2
+      dest: /tmp/test.txt
 ...
