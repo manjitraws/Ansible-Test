@@ -1,5 +1,6 @@
 ---
 - name: push the j2 file
+  hosts: all
   tasks:
    - name: push the below file
      template:
